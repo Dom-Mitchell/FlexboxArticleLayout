@@ -1,0 +1,122 @@
+:root {
+  font: 16px / 1 sans-serif;
+  /* SDG Colors */
+  --bright-sky: #80ced2;
+  --night-sky: #85577e;
+  --sun: #d5562b;
+  --sea: #5a9090;
+  --sand: #f7f0da;
+  --asphalt: #2f3737;
+  --lime: #b1d133;
+  --tangerine: #f99d1b;
+  /* Favicon Colors */
+  --big-d: #00b7ff;
+  --cessna: #5e5e5e;
+  --orange-sun: #f15a24;
+  --yellow-sun: #fcee21;
+  /* Custom Webpage Colors */
+  --pale-green: #e1eedd;
+  --mando-blue: #1857a4;
+  --slate: #c8d8e4;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  /* min-height: 100%; */
+  background-color: var(--pale-green);
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: var(--slate);
+  color: black;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+}
+svg {
+  fill: #ff0000;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--slate);
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+header h1 {
+  text-align: center;
+  margin: 20px 0px 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header p {
+  padding-bottom: 10px;
+}
+
+article.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* article.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: auto;
+  grid-template-areas:
+    'article p header sidebar'
+    'p   main   p   sidebar'
+    '.      footer footer sidebar ';
+} */
+
+article:nth-child(1) {
+  background-color: yellow;
+  padding-right: 200px;
+}
+
+article:nth-child(2) {
+  background-color: yellow;
+}
+
+article:nth-child(3) {
+  background-color: yellow;
+}
+
+article:nth-child(4) {
+  background-color: yellow;
+}
+
+article:nth-child(5) {
+  background-color: yellow;
+}
+
+article:nth-child(6) {
+  background-color: yellow;
+}
+
+article:nth-child(7) {
+  background-color: yellow;
+}
+
+article:nth-child(8) {
+  background-color: yellow;
+}
+
+article:nth-child(9) {
+  background-color: yellow;
+}
+
+article:nth-child(10) {
+  background-color: yellow;
+}
+
+article:nth-child(11) {
+  background-color: yellow;
+}
